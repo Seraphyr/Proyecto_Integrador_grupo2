@@ -11,26 +11,37 @@
 
 <body>
     <nav class="navegacion">
-        <div>
+        <div class="icon__nav">
             <img src="../imgs/logo-verde.png" alt="logo-verde" class="logo-verde">
             <h1 class="title">Flex</h1>
         </div>
-        <a href="#header" class="producto">Producto</a>
-        <a href="#caracteristicas" class="caracteristicas">Características</a>
-        <a href="#precios" class="precios">Precios</a>
-        <a href="" class="ingresar">Ingresar</a>
-        <button class="btn-verde">Registrarse</button>
+        <div class="links__nav">
+            <a href="#header" class="producto">Producto</a>
+            <a href="#caracteristicas" class="caracteristicas">Características</a>
+            <a href="#precios" class="precios">Precios</a>
+        </div>
+        <div class="btn__nav">
+            <a href="" class="ingresar">Ingresar</a>
+            <button class="btn-verde">Registrarse</button>
+        </div>
 
     </nav>
     <header id="header">
-        <h1 class="header_title">La plataforma para las empresas del futuro</h1>
-        <p class="headerParrafo">Productos pensados para los negocios del próximo siglo</p>
-        <button class="btn-verde">Solicitar demo</button>
-        <button class="btn-blanco">Registrarse</button>
+        <div class="header__text">
+            <div class="btn__nuevo">NUEVO</div>
+            <h1 class="header__title">La plataforma para las empresas del futuro</h1>
+            <p class="headerParrafo">Productos pensados para los negocios del próximo siglo</p>
+            <div>
+                <button class="btn-verde">Solicitar demo</button>
+                <button class="btn-blanco">Registrarse</button>
+            </div>
+        </div>
         <div>
-            <img src="../imgs/header.jpg" alt="Imagen de Encabezado">
-            <img src="../imgs/circle3-yellow.svg" alt="Circulo de rayas">
-            <img src="../imgs/dots3-blue.svg" alt="Puntos azules">
+            <div class="header__img">
+                <img src="../imgs/header.jpg" alt="Imagen de Encabezado">
+            </div>
+            <img class="header__waves" src="../imgs/circle3-yellow.svg" alt="Circulo de rayas">
+            <img class="header__dots" src="../imgs/dots3-blue.svg" alt="Puntos azules">
         </div>
     </header>
     <section id="caracteristicas">

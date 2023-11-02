@@ -13,9 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-weight: 500;
     color: var(--grey);
     border: 1px solid var(--grey);
@@ -29,12 +27,101 @@
 }
 
 .logo-verde {
-    height: 4rem;
+    height: 2.5rem;
 }
 
-.header_title {
+.links__nav a {
+    margin: 0 2rem ;
+}
+
+.icon__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.icon__nav h1 {
+    margin: 1.5rem;
+}
+
+.btn__nav {
+    margin-right: 1.5rem;
+}
+
+.ingresar {
+    margin-right: 1.5rem;
+}
+
+
+
+
+/*  HEADER */
+
+.header__title {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #2A3342;
+    margin-top: 0;
+}
+
+.btn__nuevo {
+    background-color: #2AD167;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 1.25rem;
+    color: #F7F8F9;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #93A1B6;
+    padding: 0 5rem ;
+}
+
+.header__img {
+    position: relative;
+    
+}
+
+.header__waves{
+    position: absolute;
+    top: 8rem;
+    right: 35rem;
+
+}
+
+
+.header__dots {
+    position: absolute;
+    bottom: 18rem;
+    right: 3rem;
+
+}
+
+/* SECTION CARACTERISTICAS */
+
+#caracteristicas {
+    display: flex;
+    flex-direction: row;
+}
+
+.capacitacion {
+    display: flex;
+    flex-direction: column;
+
 }
