@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Roboto:wght@300;500;700&family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+    --verde: #2AD167;
+    --dark-grey: #2A3342;
+    --grey: #93A1B6;
+    --light-grey: #F7F8F9;
+    --white: #FFFFFF;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--grey);
+    border: 1px solid var(--grey);
+
+}
+
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+.logoVerde {
+    height: 2rem;
+}
