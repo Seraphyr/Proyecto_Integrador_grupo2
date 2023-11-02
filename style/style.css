@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Roboto:wght@300;500;700&family=Space+Grotesk:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Poppins:ital,wght@0,300;0,600;1,400&family=Space+Grotesk:wght@300;400;600&display=swap');
 
-:root {
+  :root {
     --verde: #2AD167;
     --dark-grey: #2A3342;
     --grey: #93A1B6;
@@ -14,7 +14,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-weight: 500;
     color: var(--grey);
     border: 1px solid var(--grey);
@@ -29,4 +30,11 @@
 
 .logo-verde {
     height: 4rem;
+}
+
+.header_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #2A3342;
 }
