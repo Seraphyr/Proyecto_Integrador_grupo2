@@ -187,8 +187,10 @@ h2 {
     color: #93A1B6;
     margin: 0;
     padding-left: 10rem;
+}
 
 }
+
 /* FOOTER */
 
 #footer {
@@ -199,6 +201,7 @@ h2 {
     border: 1px solid var(--grey);
     background-color: var(--dark-grey);
     color: var(--light-grey);
+    padding: 2.5rem;
 }
 .title {
     color: var(--white);
@@ -209,7 +212,6 @@ h2 {
     display: flex; 
     flex-direction: row;
     align-items: center;
-    margin: 3rem 0;
     color: var(--grey);
 }
 
@@ -217,7 +219,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 3rem 0;
+    margin: 2rem 0;
     align-items: center;
     width: 100vw;
     text-decoration: none;
