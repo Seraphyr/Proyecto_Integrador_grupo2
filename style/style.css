@@ -181,7 +181,7 @@ h2 {
 }
 .planes__plan {
     background-color: var(--light-grey);
-    padding: 5rem;
+    padding: 4rem;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -189,6 +189,26 @@ h2 {
     text-align: center;
     font-size: 1.5rem;
 }
+
+.planes__precios {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.planes__planes {
+    color: var(--verde);
+}
+
+.planes__facturacion {
+    color: var(--grey);
+}
+
+.btn__precio {
+    color: var(--verde);
+    background-color: #EAFAF0;
+}
+
 ul {
     list-style-image: url(../imgs/tic_icon.png);
     list-style-position: outside;
