@@ -300,3 +300,17 @@
       color: var(--grey);
       padding-top: 3rem;
   }
+ 
+  /* MODAL */
+  ::backdrop {
+    opacity: 0.95;
+}
+#ingresar {
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--dark-grey);
+    font-size: 1rem;
+    border: none;
+}
