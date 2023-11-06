@@ -1,14 +1,16 @@
-const dialog = document.getElementById("modal");
-const botonMostrar = document.getElementById("ingresar");
-const botonCerrar = document.getElementById("botonCerrar");
+document.addEventListener("DOMContentLoaded", function () {
+    let ingresar = document.getElementById("ingresar");
+    let botonCerrar = document.getElementById("botonCerrar");
+    let modal = document.getElementById("modal");
 
-function mostrarModal() {
-    dialog.showModal();
-};
+    // Botón "Ingresar" abre el modal
+    ingresar.addEventListener("click", function () {
+        modal.style.display = "flex"; // Mostrar el modal
+    });
 
-function cerrarModal() {
-    dialog.close();
-};
+    // Botón para cerrar el modal
+    botonCerrar.addEventListener("click", function () {
+        modal.style.display = "none"; // Ocultar el modal
+    });
+});
 
-botonMostrar.onclick = mostrarModal;
-botonCerrar.onclick = cerrarModal;

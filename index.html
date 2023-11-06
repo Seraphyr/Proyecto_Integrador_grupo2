@@ -30,7 +30,7 @@
         <div class="header__text">
             <div class="btn__nuevo">NUEVO</div>
             <h1 class="header__title">La plataforma para las empresas del futuro</h1>
-            <p class="headerParrafo">Productos pensados para los negocios del próximo siglo</p>
+            <p class="header__parrafo">Productos pensados para los negocios del próximo siglo</p>
             <div>
                 <button class="btn__green">Solicitar demo</button>
                 <button class="btn__white">Registrarse</button>
@@ -70,7 +70,7 @@
             <div class="planes__plan">
                 <span class="btn__precio">precio</span>
                 <h3 class="planes__planes">Plan básico</h3>
-                <p class="planes__precios">$10/mes</p>
+                <p class="planes__precios"><sup>$</sup>10/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
                 <ul>
                     <li>1GB de almacenamiento</li>
@@ -83,7 +83,7 @@
             <div class="planes__plan">
                 <span class="btn__precio">precio</span>
                 <h3 class="planes__planes">Plan freelancer</h3>
-                <p class="planes__precios">$99/mes</p>
+                <p class="planes__precios"><sup>$</sup>99/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
                 <ul>
                     <li>Características básicas</li>
@@ -96,7 +96,7 @@
             <div class="planes__plan">
                 <span class="btn__precio">precio</span>
                 <h3 class="planes__planes">Plan empresas</h3>
-                <p class="planes__precios">$799/mes</p>
+                <p class="planes__precios"><sup>$</sup>799/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
                 <ul>
                     <li>Características freelancer</li>
@@ -125,7 +125,8 @@
         <div>
             <p class="copyright">© 2022 Flex. Un producto ficticio de Senpai.</p>
         </div>
-        <dialog id="modal">
+
+        <dialog id="modal" style="display: none;">
             <div class="modal__logo"><img src="../imgs/logo-blanco.png" alt="Logo Senpai" class="logo-modal"></div>
             <p class="modal__title">Ingresa a tu cuenta</p>
             <p class="modal__subtitle">y empieza a conseguir resultados</p>
@@ -145,9 +146,16 @@
                     <p class="modal_greenFont">Registrarse</p>
                 </div>
             </form>
-            <button id="botonCerrar" type="button" autofocus>X</button>
+            <button id="botonCerrar" type="button" autofocus>
+
+                <svg class="cruz_cerrar" viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <line  x1="1" y1="20" x2="20" y2="1" stroke="black" stroke-width="2" />
+                    <line x1="1" y1="1" x2="20" y2="20" stroke="black" stroke-width="2" />
+                </svg>
+            </button>
         </dialog>
         <script src="../javascript/javascript.js"></script>
+
 </body>
 
 </html>
