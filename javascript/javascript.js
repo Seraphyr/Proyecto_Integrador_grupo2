@@ -14,3 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+
+
+const reiniciarModal = () => location.reload();
+
+const botonReiniciar = document.getElementById("modal__ingresar");
+botonReiniciar.onclick = reiniciarModal

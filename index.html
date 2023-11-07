@@ -130,17 +130,22 @@
             <div class="modal__logo"><img src="../imgs/logo-blanco.png" alt="Logo Senpai" class="logo-modal"></div>
             <p class="modal__title">Ingresa a tu cuenta</p>
             <p class="modal__subtitle">y empieza a conseguir resultados</p>
-            <form>
-                <label for="email">Correo</label>
-                <input type="email" id="email">
-                <label for="password">Contraseña</label>
-                <input type="password" id="password">
+            <form class="modal__form">
+                <label for="email" class="modal__whiteFont">Correo</label>
+                <input type="email" class="inputs">
+                <label for="password" class="modal__whiteFont">Contraseña</label>
+                <input type="password" class="inputs">
                 <div class="checkbox">
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox">Recordarme</label>
-                    <p class="modal_greenFont">Olvidé mi contraseña</p>
+                    <div>
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox" class="modal__whiteFont">Recordarme</label>
+                    </div>
+
+                    <div>
+                        <p class="modal_greenFont">Olvidé mi contraseña</p>
+                    </div>
                 </div>
-                <button type="button" class="btn__greenLarge">Ingresar</button>
+                <button type="button" id="modal__ingresar" class="btn__greenLarge">Ingresar</button>
                 <div class="modal__footer">
                     <p class="modal__whiteFont">¿Aún no tienes una cuenta?</p>
                     <p class="modal_greenFont">Registrarse</p>
@@ -149,8 +154,8 @@
             <button id="botonCerrar" type="button" autofocus>
 
                 <svg class="cruz_cerrar" viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    <line  x1="1" y1="20" x2="20" y2="1" stroke="black" stroke-width="2" />
-                    <line x1="1" y1="1" x2="20" y2="20" stroke="black" stroke-width="2" />
+                    <line x1="1" y1="20" x2="20" y2="1" stroke="white" stroke-width="2" />
+                    <line x1="1" y1="1" x2="20" y2="20" stroke="white" stroke-width="2" />
                 </svg>
             </button>
         </dialog>

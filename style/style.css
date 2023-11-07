@@ -231,6 +231,7 @@
       color: var(--white);
       font-size: 1.25rem;
       border: none;
+      margin: 1rem 0 1rem 0;
   }
 
   .planes__precios {
@@ -361,7 +362,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 25rem;
 }
 .modal__title {
     color: var(--light-grey);
@@ -384,6 +386,9 @@
     color: var(--white);
     font-size: 3rem;
     border: none;
+    position: absolute;
+    top: 2rem;
+    right: 6rem;
 }
 
 .cruz_cerrar {
@@ -392,4 +397,40 @@
 
 .hidden {
     display: none;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.inputs {
+    
+    display: block;
+    height: 40px;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 23rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+}
+.modal_greenFont {
+    color: var(--verde);
+    margin: 0;
+}
+.modal__whiteFont {
+    color: var(--white);
+    margin: 0;
 }
