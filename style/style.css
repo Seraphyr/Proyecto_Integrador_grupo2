@@ -201,7 +201,7 @@
       align-items: center;
       font-family: 'Poppins', sans-serif;
       margin: 5rem 0;
-      width: 100vw;
+      width: 98vw;
   }
 
   .planes__plan {
@@ -221,7 +221,28 @@
       font-size: 1.1rem;
       color: var(--grey);
       font-size: 1.25rem;
+      list-style-type: none;
+    padding-left: 0;
   }
+
+ul li {
+    position: relative;
+    padding-left: 50px; /* Espacio a la izquierda de cada elemento de la lista para dar cabida a la imagen */
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+
+ul li::before {
+    content: "";
+    background-image: url("../imgs/tic_icon.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 40px; /* Ancho de la imagen */
+    height: 40px; /* Alto de la imagen */
+    position: absolute;
+    left: 0;
+}
 
   .btn__greenLarge {
       background-color: var(--verde);
@@ -293,9 +314,10 @@
       justify-content: space-around;
       margin: 2rem 0;
       align-items: center;
-      width: 100vw;
+      width: 80vw;
       text-decoration: none;
       color: var(--grey);
+      font-size: 1.25rem;
   }
 
   .footer__links a {
@@ -330,7 +352,6 @@
 
 
 #modal {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -434,3 +455,4 @@
     color: var(--white);
     margin: 0;
 }
+
