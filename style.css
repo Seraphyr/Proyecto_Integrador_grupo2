@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --verde: #2AD167;
+    --dark-grey: #2A3342;
+    --grey: #93A1B6;
+    --light-grey: #F7F8F9;
+    --white: #FFFFFF;
+}
+
+/*  NAV */
+
+.nav--bar {
+    color: var(--grey);
+    width: 100vw;
+    background-color: var(--white);
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+
+}
+
+.child__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 3.5rem;
+}
+
+/*  Logotipo + FLEX */
+
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+.logo-verde {
+    height: 2.5rem;
+    margin: 0.5rem;
+}
+
+.icon__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+/*  Enlaces Producto / Caracteristicas / Precios */
+
+.box-menu-navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.item-menu-link {
+    transition: .3s linear;
+    padding: 1.8rem 0;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 2rem;
+    text-decoration: none;
+    text-shadow: none;
+    color: var(--grey);
+}
+
+/*  Botones Ingresar / Registrarse  */
+
+.btn__nav {
+    margin-right: 2.5rem;
+}
+
+/*  BOTONES */
+
+.btn__green {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--white);
+    font-size: 1rem;
+    border: none;
+}
+
+.btn__white {
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--dark-grey);
+    font-size: 1rem;
+    border: 1px solid var(--grey);
+}
+
+
+
+/*  HEADER */
+
+.header__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #2A3342;
+    padding-top: 0rem;
+    margin: 0;
+}
+
+.logo__nuevo {
+    background-color: #2AD167;
+    border-radius: 1rem;
+    width: 3rem;
+    height: 1.25rem;
+    color: #F7F8F9;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    padding-top: 6rem;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #93A1B6;
+    padding: 0 5rem;
+}
+
+.header__parrafo {
+    font-weight: 400;
+    color: #2A3342;
+    margin-bottom: 4rem;
+
+}
+
+.header__img {
+    position: relative;
+
+
+}
+
+.header__waves {
+    position: absolute;
+    top: 8rem;
+    right: 35rem;
+}
+
+.header__dots {
+    position: absolute;
+    top: 36rem;
+    right: 3rem;
+
+}
+
+/* SECTION CARACTERISTICAS */
+
+#caracteristicas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10rem 0 1rem 0;
+
+}
+
+.capacitacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    text-align: center;
+}
+
+.icon__back {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 4.5rem;
+    height: 3rem;
+    padding-top: 1.5rem;
+}
+
+.icon {
+    filter: invert(100%);
+
+}
+
+/* PRECIOS */
+
+#precios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    margin: 5rem 0 0 0;
+    align-items: flex-start;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #2A3342;
+    margin: 0;
+    padding-left: 10rem;
+}
+
+.planes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 5rem 0;
+    width: 98vw;
+}
+
+.planes__plan {
+    background-color: var(--light-grey);
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.lista__caracteristicas {
+    list-style-image: url(../imgs/tic_icon.png);
+    list-style-position: outside;
+    font-size: 1.1rem;
+    color: var(--grey);
+    font-size: 1.25rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.items__caracteristicas {
+    position: relative;
+    padding-left: 50px;
+    /* Espacio a la izquierda de cada elemento de la lista para dar cabida a la imagen */
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+
+.items__caracteristicas::before {
+    content: "";
+    background-image: url("../imgs/tic_icon.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 40px;
+    /* Ancho de la imagen */
+    height: 40px;
+    /* Alto de la imagen */
+    position: absolute;
+    left: 0;
+}
+
+
+.btn__greenLarge {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 25rem;
+    height: 3rem;
+    color: var(--white);
+    font-size: 1.25rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+}
+
+.planes__precios {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.planes__planes {
+    color: var(--verde);
+    font-weight: 400;
+
+}
+
+.planes__facturacion {
+    color: var(--grey);
+}
+
+.btn__precio {
+    color: var(--verde);
+    background-color: #EAFAF0;
+    font-size: 1rem;
+}
+
+.precios__parrafo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #93A1B6;
+    margin: 0;
+    padding-left: 10rem;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    padding: 2.5rem;
+}
+
+
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--grey);
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 0;
+    align-items: center;
+    width: 80vw;
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 1.25rem;
+}
+
+.footer__links a {
+    text-decoration: none;
+    text-shadow: none;
+    color: var(--grey);
+}
+
+.title__Footer {
+    color: var(--light-grey);
+    padding: 0 1rem;
+}
+
+.copyright {
+    color: var(--grey);
+    padding-top: 3rem;
+}
+
+/* MODAL */
+::backdrop {
+    opacity: 0.95;
+}
+
+#ingresar {
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--dark-grey);
+    font-size: 1rem;
+    border: none;
+}
+
+
+#modal {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-grey);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px, 0px);
+    display: none;
+    position: fixed;
+}
+
+.modal__logo {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-modal {
+    height: 2.5rem;
+}
+
+.modal__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+}
+
+.modal__title {
+    color: var(--light-grey);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.modal__subtitle {
+    color: var(--grey);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+#botonCerrar {
+    background-color: var(--dark-grey);
+    border-radius: 10px;
+    width: 1rem;
+    height: 1rem;
+    color: var(--white);
+    font-size: 3rem;
+    border: none;
+    position: absolute;
+    top: 2rem;
+    right: 6rem;
+}
+
+.cruz_cerrar {
+    color: var(--light-grey);
+}
+
+.hidden {
+    display: none;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.inputs {
+
+    display: block;
+    height: 40px;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 23rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+}
+
+.modal_greenFont {
+    color: var(--verde);
+    margin: 0;
+}
+
+.modal__whiteFont {
+    color: var(--white);
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/* boton desplegar SE ACTIVA EN EL MEDIA QUERY
+****************************/
+.btn-desplegar {
+    display: none;
+    background-color: transparent;
+    height: 30px;
+    margin-right: 250px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-desplegar span {
+    height: 2px;
+    display: block;
+    background-color: #000;
+    width: 25px;
+    border-radius: 20px;
+}
+
+.btn-desplegar span:nth-child(2) {
+    margin: .4rem 0;
+}
+
+
+
+
+
+@media screen and (max-width: 390px) {
+
+    /* boton desplegar
+  ****************************/
+    .btn-desplegar {
+        display: block;
+    }
+
+    /*  BARRA NAVEGADOR
+  ****************************/
+    .nav--bar {
+        position: fixed;
+        top: 0px;
+        z-index: 2;
+    }
+
+    /*  menu de navegacion
+  ****************************/
+    .box-menu-navegacion {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--white);
+        width: 30%;
+        transform: scaley(0);
+        transform-origin: top;
+        transition: .3s linear;
+        padding: 0 2rem;
+    }
+
+    .menu-navegacion {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-menu-link {
+        padding: 0.75rem 0;
+        font-size: 1.15rem;
+        color: var(--dark-grey);
+    }
+
+    /*  activador sub menu
+  ****************************/
+    .viewMenu {
+        transform: scaley(1);
+    }
+
+    /*  hover
+  ****************************/
+    .item-menu-link:hover:hover i {
+        color: initial;
+    }
+
+    body {
+        width: 700px;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    #header {
+        width: 700px;
+        margin: 0;
+
+    }
+
+    .btn__nav {
+    }
+
+    .header__text {
+        padding: 0;
+    }
+
+
+    .header__title {
+        width: 100%;
+    }
+
+
+}

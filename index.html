@@ -10,25 +10,40 @@
 </head>
 
 <body>
-    <nav class="navegacion">
-        <div class="icon__nav">
-            <img src="../imgs/logo-verde.png" alt="logo-verde" class="logo-verde">
-            <h1 class="title">Flex</h1>
+    <nav class="nav--bar">
+        <div class="child__nav">
+            <div class="icon__nav">
+                <img src="../imgs/logo-verde.png" alt="logo-verde" class="logo-verde">
+                <h1 class="title">Flex</h1>
+            </div>
+            <nav class="box-menu-navegacion" id="menu-navegacion">
+                <ul class="menu-navegacion">
+                    <li class="links__nav">
+                        <a href="#header" class="item-menu-link">Producto</a>
+                    </li>
+                    <li class="links__nav">
+                        <a href="#caracteristicas" class="item-menu-link">Características</a>
+                    </li>
+                    <li class="links__nav">
+                        <a href="#precios" class="item-menu-link">Precios</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn-desplegar" id="btn-desplegar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="btn__nav">
+                <button type="button" id="ingresar" >Ingresar</button>
+                <button class="btn__green">Registrarse</button>
+            </div>
         </div>
-        <div class="links__nav">
-            <a href="#header" class="producto">Producto</a>
-            <a href="#caracteristicas" class="caracteristicas">Características</a>
-            <a href="#precios" class="precios">Precios</a>
-        </div>
-        <div class="btn__nav">
-            <button type="button" id="ingresar">Ingresar</button>
-            <button class="btn__green">Registrarse</button>
-        </div>
-
     </nav>
+
     <header id="header">
         <div class="header__text">
-            <div class="btn__nuevo">NUEVO</div>
+            <div class="logo__nuevo">NUEVO</div>
             <h1 class="header__title">La plataforma para las empresas del futuro</h1>
             <p class="header__parrafo">Productos pensados para los negocios del próximo siglo</p>
             <div>
@@ -44,6 +59,7 @@
             <img class="header__dots" src="../imgs/dots3-blue.svg" alt="Puntos azules">
         </div>
     </header>
+
     <section id="caracteristicas">
         <div class="capacitacion">
             <div class="icon__back"><img src="../imgs/mail-icon.svg" alt="mail-icon" class="icon"></div>
@@ -72,11 +88,11 @@
                 <h3 class="planes__planes">Plan básico</h3>
                 <p class="planes__precios"><sup>$</sup>10/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
-                <ul>
-                    <li>1GB de almacenamiento</li>
-                    <li>Dashboard completo</li>
-                    <li>Asistencia por correo</li>
-                    <li>Hasta 10 miembros</li>
+                <ul class="lista__caracteristicas">
+                    <li class="items__caracteristicas">1GB de almacenamiento</li>
+                    <li class="items__caracteristicas">Dashboard completo</li>
+                    <li class="items__caracteristicas">Asistencia por correo</li>
+                    <li class="items__caracteristicas">Hasta 10 miembros</li>
                 </ul>
                 <button class="btn__greenLarge">Solicitar demo</button>
             </div>
@@ -85,11 +101,11 @@
                 <h3 class="planes__planes">Plan freelancer</h3>
                 <p class="planes__precios"><sup>$</sup>99/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
-                <ul>
-                    <li>Características básicas</li>
-                    <li>Asistencia preferencial</li>
-                    <li>100GB de almacenamiento</li>
-                    <li>Hasta 100 miembros</li>
+                <ul class="lista__caracteristicas">
+                    <li class="items__caracteristicas">Características básicas</li>
+                    <li class="items__caracteristicas">Asistencia preferencial</li>
+                    <li class="items__caracteristicas">100GB de almacenamiento</li>
+                    <li class="items__caracteristicas">Hasta 100 miembros</li>
                 </ul>
                 <button class="btn__greenLarge">Solicitar demo</button>
             </div>
@@ -98,11 +114,11 @@
                 <h3 class="planes__planes">Plan empresas</h3>
                 <p class="planes__precios"><sup>$</sup>799/<sub>mes</sub></p>
                 <p class="planes__facturacion">Facturado anualmente</p>
-                <ul>
-                    <li>Características freelancer</li>
-                    <li>1TB de almacenamiento</li>
-                    <li>Asistencia telefonica 24/7</li>
-                    <li>Miembros ilimitados</li>
+                <ul class="lista__caracteristicas">
+                    <li class="items__caracteristicas">Características freelancer</li>
+                    <li class="items__caracteristicas">1TB de almacenamiento</li>
+                    <li class="items__caracteristicas">Asistencia telefonica 24/7</li>
+                    <li class="items__caracteristicas">Miembros ilimitados</li>
                 </ul>
                 <button class="btn__greenLarge">Solicitar demo</button>
             </div>

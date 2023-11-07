@@ -21,3 +21,19 @@ const reiniciarModal = () => location.reload();
 
 const botonReiniciar = document.getElementById("modal__ingresar");
 botonReiniciar.onclick = reiniciarModal
+
+
+
+// MENU DESPLEGABLE FORMATO MOVIL
+
+let btnDesplegar = document.getElementById("btn-desplegar");
+let menuNavegacion = document.getElementById("menu-navegacion");
+btnDesplegar.addEventListener('click', function(){
+    menuNavegacion.classList.toggle("viewMenu");
+});
+
+$(".angle-view-sub-menu").click(function(){
+  $(this).siblings("ul").toggle();
+})
+
+
