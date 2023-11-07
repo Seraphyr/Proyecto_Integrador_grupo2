@@ -627,6 +627,7 @@ h2 {
 
     .planes {
         flex-direction: column;
+        width: 700px;
     }
 
 }
