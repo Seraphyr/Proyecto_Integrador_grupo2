@@ -560,7 +560,7 @@ h2 {
         top: 100%;
         left: 0;
         background-color: var(--white);
-        width: 30%;
+        width: 100%;
         transform: scaley(0);
         transform-origin: top;
         transition: .3s linear;
@@ -590,8 +590,12 @@ h2 {
         color: initial;
     }
 
+.icon__nav {
+    margin-left: 0;
+}
+
     body {
-        width: 700px;
+        width: 390px;
     }
 
     .header__img {
@@ -599,21 +603,38 @@ h2 {
     }
 
     #header {
-        width: 700px;
+        width: 390px;
         margin: 0;
-
     }
 
-    .btn__nav {
+    .header__parrafo {
+        width: 330px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
     }
-
     .header__text {
         padding: 0;
     }
 
-
     .header__title {
-        width: 100%;
+        width: 80%;
+        font-size: 2.5rem;
+    }
+    .header__waves {
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        z-index: -1;
+        opacity: 50%;
+    }
+    
+    .header__dots {
+        position: absolute;
+        top: 19rem;
+        right: 19rem;
+        z-index: -1;
+        opacity: 50%;
     }
 
 
@@ -627,7 +648,21 @@ h2 {
 
     .planes {
         flex-direction: column;
-        width: 700px;
+        width: 390px;
+        align-items: center;
+        margin: 0;
     }
-
+    #footer {
+        padding: 0;
+    }
+    .footer__links{
+        flex-direction: column;
+        margin: 0;
+    }
+    a {
+        padding: 5px 0 5px 0;
+    }
+    .copyright {
+        padding-top: 1rem;
+    }
 }
