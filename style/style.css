@@ -617,4 +617,16 @@ h2 {
     }
 
 
+    #caracteristicas {
+        flex-direction: column;
+    }
+
+    #precios {
+        flex-direction: column;
+    }
+
+    .planes {
+        flex-direction: column;
+    }
+
 }
