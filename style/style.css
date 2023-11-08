@@ -25,7 +25,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 98vw;
     height: 3.5rem;
 }
 
@@ -109,7 +109,27 @@
     border: 1px solid var(--grey);
 }
 
+.btn__greenLarge {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 25rem;
+    height: 3rem;
+    color: var(--white);
+    font-size: 1.25rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+}
 
+.btn__greenModal {
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 25rem;
+    height: 3rem;
+    color: var(--white);
+    font-size: 1.25rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+}
 
 /*  HEADER */
 
@@ -238,6 +258,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     margin: 5rem 0;
     width: 98vw;
+    z-index: -4;
 }
 
 .planes__plan {
@@ -284,21 +305,11 @@ h2 {
 }
 
 
-.btn__greenLarge {
-    background-color: var(--verde);
-    border-radius: 10px;
-    width: 25rem;
-    height: 3rem;
-    color: var(--white);
-    font-size: 1.25rem;
-    border: none;
-    margin: 1rem 0 1rem 0;
-}
-
 .planes__precios {
     font-size: 3rem;
     font-weight: 500;
     margin: 0;
+    
 }
 
 .planes__planes {
@@ -325,6 +336,15 @@ h2 {
     margin: 0;
     padding-left: 10rem;
 }
+.header__waves__movil {
+    display: none;
+
+}
+
+.header__dots__movil {
+ display: none;
+}
+
 
 
 
@@ -389,6 +409,7 @@ h2 {
     color: var(--dark-grey);
     font-size: 1rem;
     border: none;
+    margin-left: -1.5rem;
 }
 
 
@@ -543,6 +564,7 @@ h2 {
   ****************************/
     .btn-desplegar {
         display: block;
+        padding-left: 1.5rem;
     }
 
     /*  BARRA NAVEGADOR
@@ -559,7 +581,7 @@ h2 {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: var(--white);
+        background-color: var(--light-grey);
         width: 100%;
         transform: scaley(0);
         transform-origin: top;
@@ -590,9 +612,9 @@ h2 {
         color: initial;
     }
 
-.icon__nav {
-    margin-left: 1rem;
-}
+    .icon__nav {
+        margin-left: 1rem;
+    }
 
     body {
         width: 390px;
@@ -615,6 +637,7 @@ h2 {
         margin-bottom: 3rem;
         font-size: 1.1rem;
     }
+
     .header__text {
         padding: 0;
     }
@@ -623,6 +646,7 @@ h2 {
         width: 80%;
         font-size: 2.5rem;
     }
+
     .header__waves {
         position: absolute;
         top: 5rem;
@@ -630,13 +654,14 @@ h2 {
         z-index: -1;
         opacity: 50%;
     }
-    
+
     .header__dots {
         position: absolute;
         top: 32rem;
         right: 17rem;
         z-index: 0;
         opacity: 50%;
+        scale: 1.25;
     }
 
     .btn__navBar {
@@ -677,14 +702,12 @@ h2 {
         background-color: var(--light-grey);
         width: 390px;
         padding: 0.5rem 0;
-        z-index: -6;
+        z-index: -10;
     }
 
     .capacitacion {
         padding: 2rem 0;
     }
-
-
 
     #precios {
         flex-direction: column;
@@ -700,46 +723,57 @@ h2 {
     .planes {
         flex-direction: column;
         width: 390px;
-        margin: 15px 0 15px 0;
-        
+        margin: 25px 0 15px 0;
+
     }
+
     .planes__plan {
         margin: 15px 0 15px 0;
         padding: 10px;
         width: 330px;
     }
+
     .planes__facturacion {
         margin: 0.8rem;
     }
+
     .items__caracteristicas {
         font-size: 16px;
         line-height: 30px;
     }
+
     .btn__greenLarge {
-        width:320px;
+        width: 10px;
+        scale: .75;
     }
+
     #footer {
         padding: 0;
         width: 390px;
     }
-    .footer__links{
+
+    .footer__links {
         flex-direction: column;
         margin: 0;
     }
+
     a {
         padding: 5px 0 5px 0;
         font-size: 0.9rem;
     }
+
     .copyright {
         padding-top: 1rem;
         font-size: 0.8rem;
     }
+
     h2 {
         font-size: 2.5rem;
         padding: 0;
         margin-left: 2rem;
         margin: 2rem;
     }
+
     .precios__parrafo {
         font-size: 1.1rem;
         padding: 0;
@@ -747,7 +781,6 @@ h2 {
         width: 350px;
     }
 
-    
     #modal {
         width: 390px;
         margin: -25px;
@@ -778,12 +811,47 @@ h2 {
         width: 360px;
     }
 
-    .cruz_cerrar { 
+    .cruz_cerrar {
         position: relative;
         left: 3rem;
         top: 1rem;
+    }
+
+    .btn__greenModal {
+        width: 22.75rem;
+    }
+
+    .decoracion__movil {
+        margin: 0;
+        padding: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .header__waves__movil {
+        display: block;
+        z-index: -1;
+        position: relative;
+        top: -1.75rem;
+        opacity: 35%;
+        left: -2rem;
+        scale: 1.1;
+    }
+
+    .header__dots__movil {
+        display: block;
+        z-index: -1;
+        position: relative;
+        opacity: 50%;
+        top: -28rem;
+        left: 17rem;
+        scale: 100%;
+        transform: rotate(90deg);
 
     }
+
+
+
 
 
 
