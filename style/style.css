@@ -744,4 +744,45 @@ h2 {
         margin-left: 2rem;
         width: 350px;
     }
+
+    
+    #modal {
+        width: 390px;
+        margin: -25px;
+    }
+
+    .modal__form {
+        width: 350px;
+    }
+
+    .modal__subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+    }
+
+    .inputs {
+        width: 340px;
+    }
+
+    .checkbox {
+        width: 350px;
+    }
+
+    .btn__greenLarge {
+        width: 360px;
+    }
+
+    .modal__footer {
+        width: 360px;
+    }
+
+    .cruz_cerrar { 
+        position: relative;
+        left: 3rem;
+        top: 1rem;
+
+    }
+
+
+
 }
