@@ -719,7 +719,7 @@ h2 {
     }
     #footer {
         padding: 0;
-        width: 425px;
+        width: 390px;
     }
     .footer__links{
         flex-direction: column;
@@ -727,10 +727,11 @@ h2 {
     }
     a {
         padding: 5px 0 5px 0;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .copyright {
         padding-top: 1rem;
+        font-size: 0.8rem;
     }
     h2 {
         font-size: 2.5rem;
