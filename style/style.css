@@ -84,7 +84,7 @@
 /*  Botones Ingresar / Registrarse  */
 
 .btn__nav {
-    margin-right: 2.5rem;
+    margin-right: 1rem;
 }
 
 /*  BOTONES */
@@ -645,7 +645,13 @@ h2 {
 
     .btn__nav {
         position: relative;
-        right: 8rem;
+        right: 5rem;
+    }
+
+    .btn-desplegar {
+        z-index: 4;
+        margin-left: 0;
+        margin-right: 10rem;
     }
 
     .child__nav {
@@ -655,7 +661,7 @@ h2 {
     }
 
     .btn__header {
-        width: 390px;
+        width: 350px;
         margin: -1rem;
         padding: 0;
         display: flex;
@@ -669,7 +675,7 @@ h2 {
         align-items: center;
         margin-top: 4rem;
         background-color: var(--light-grey);
-        width: 450px;
+        width: 390px;
         padding: 0.5rem 0;
         z-index: -6;
     }
@@ -678,14 +684,16 @@ h2 {
         padding: 2rem 0;
     }
 
-  
-
-
-
 
 
     #precios {
         flex-direction: column;
+        width: 390px;
+    }
+
+    .planes__precios {
+        width: 340px;
+        margin: 0;
     }
 
     .planes {
@@ -733,5 +741,6 @@ h2 {
         font-size: 1.1rem;
         padding: 0;
         margin-left: 2rem;
+        width: 350px;
     }
 }
