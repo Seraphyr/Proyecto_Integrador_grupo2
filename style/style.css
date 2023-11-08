@@ -591,11 +591,12 @@ h2 {
     }
 
 .icon__nav {
-    margin-left: 0;
+    margin-left: 1rem;
 }
 
     body {
         width: 390px;
+        margin: 0;
     }
 
     .header__img {
@@ -605,6 +606,7 @@ h2 {
     #header {
         width: 390px;
         margin: 0;
+        margin-left: 2rem;
     }
 
     .header__parrafo {
@@ -623,24 +625,64 @@ h2 {
     }
     .header__waves {
         position: absolute;
-        top: 4rem;
-        right: 2rem;
+        top: 5rem;
+        right: 0.1rem;
         z-index: -1;
         opacity: 50%;
     }
     
     .header__dots {
         position: absolute;
-        top: 19rem;
-        right: 19rem;
-        z-index: -1;
+        top: 32rem;
+        right: 17rem;
+        z-index: 0;
         opacity: 50%;
     }
 
+    .btn__navBar {
+        display: none;
+    }
+
+    .btn__nav {
+        position: relative;
+        right: 8rem;
+    }
+
+    .child__nav {
+        width: 390px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn__header {
+        width: 390px;
+        margin: -1rem;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 2;
+    }
 
     #caracteristicas {
         flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        background-color: var(--light-grey);
+        width: 450px;
+        padding: 0.5rem 0;
+        z-index: -6;
     }
+
+    .capacitacion {
+        padding: 2rem 0;
+    }
+
+  
+
+
+
+
 
     #precios {
         flex-direction: column;
@@ -649,11 +691,27 @@ h2 {
     .planes {
         flex-direction: column;
         width: 390px;
-        align-items: center;
-        margin: 0;
+        margin: 15px 0 15px 0;
+        
+    }
+    .planes__plan {
+        margin: 15px 0 15px 0;
+        padding: 10px;
+        width: 330px;
+    }
+    .planes__facturacion {
+        margin: 0.8rem;
+    }
+    .items__caracteristicas {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn__greenLarge {
+        width:320px;
     }
     #footer {
         padding: 0;
+        width: 425px;
     }
     .footer__links{
         flex-direction: column;
@@ -661,8 +719,19 @@ h2 {
     }
     a {
         padding: 5px 0 5px 0;
+        font-size: 1.1rem;
     }
     .copyright {
         padding-top: 1rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        padding: 0;
+        margin-left: 2rem;
+    }
+    .precios__parrafo {
+        font-size: 1.1rem;
+        padding: 0;
+        margin-left: 2rem;
     }
 }
