@@ -689,6 +689,7 @@ h2 {
     #precios {
         flex-direction: column;
         width: 390px;
+        margin: 0;
     }
 
     .planes__precios {
@@ -737,6 +738,7 @@ h2 {
         font-size: 2.5rem;
         padding: 0;
         margin-left: 2rem;
+        margin: 2rem;
     }
     .precios__parrafo {
         font-size: 1.1rem;
